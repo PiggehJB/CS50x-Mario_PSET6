@@ -1,0 +1,40 @@
+--Less Comfortable:
+
+Check if user input (pyramid_height) is less than 9 but greater than 0. Also make sure it's an integer 
+
+Add hashtag_counter to send '#'s in numerical order: hashtag_counter = height - (height - height -1)
+Add +1 to hashtag_counter per loop
+
+Add space_counter to send spaces with the '#'s: space_counter = height - 1 
+Subtract -1 to space_counter per loop
+
+Multiply print * space_counter for spaces
+Multiply print * hashtag_counter for hashtags
+
+loop to see if hashtag_counter is greater than pyramid_height. If so, pyramid is complete
+
+pyramid height = 4:
+
+---# | space_counter = 3, hashtag_counter = 1
+--## | space_counter = 2, hashtag_counter = 2
+-### | space_counter = 1, hashtag_counter = 3
+#### | space_counter = 0, hashtag_counter = 4
+
+"Your pyramid is completed"
+
+--More Comfortable:
+
+Same as Less Comfortable, simply add 2 spaces and print another set of hashtags while printing pyramid
+
+pyramid height = 4:
+
+---#  #| space_counter = 3, hashtag_counter = 1
+--##  ##| space_counter = 2, hashtag_counter = 2
+-###  ###| space_counter = 1, hashtag_counter = 3
+####  ####| space_counter = 0, hashtag_counter = 4
+
+
+
+
+
+09/14/2021
